@@ -1,0 +1,38 @@
+		label {
+		text-transform: uppercase;
+		display: block;
+		text-align: center;
+		font-size: 20px;
+		color: rgb(194, 34, 34);
+		margin: 0 0 5px;
+	}
+	#heading{
+		text-align: center;
+		font-weight: bold;
+		font-size: large;
+	}
+	textarea{
+		width: 15cm;
+		height: 10cm;
+		background-color: rgb(221, 210, 60);
+		color: rgb(0, 0, 0);
+		font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: medium;
+	}
+	#search{
+		padding: 10px 20px;
+	}
+	#searchbutton:hover{
+		background-color: rgb(33, 66, 66);
+	}
+	#searchbutton{
+		padding:10px 10px;
+		background-color: black;
+		color:white;
+	}
+
+	p{
+		font-size: medium;
+	}
+	
+	
