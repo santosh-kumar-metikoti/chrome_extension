@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	document.getElementById('note').addEventListener('keydown', saveNote);
 });
 
+
 function saveNote () {
 	var note = document.getElementById('note').value;
 	localStorage['note'] = note;
