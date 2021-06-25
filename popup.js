@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	document.getElementById('note').value = localStorage['note'];
 }, false);
 
+
 document.addEventListener('DOMContentLoaded', function () {
 	document.getElementById('note').addEventListener('keydown', saveNote);
 });
