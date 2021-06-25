@@ -14,6 +14,7 @@ function saveNote () {
 	localStorage['note'] = note;
 }
 
+
 document.addEventListener('DOMContentLoaded', function () {
 	document.getElementById('searchbutton').addEventListener('click', swapper);
 });
